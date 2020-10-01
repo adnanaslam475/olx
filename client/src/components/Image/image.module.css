@@ -1,0 +1,9 @@
+.Img{
+    border:2px solid;
+    width: 10%;
+    min-height: 100px;
+    max-height: auto;
+    margin: 3px;
+    float: left;
+    border: 2px solid rgb(117, 107, 107)
+}

@@ -1,0 +1,16 @@
+.gBtn{
+    border: 2px solid rgb(69, 41, 226);
+    color: rgb(127, 158, 243);
+    display: inline-block;
+    font-size: 19px;
+    margin: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    align-content: flex-start;
+    padding: 9px 82px;
+    position: relative;
+    text-decoration: none;
+}
+.gBtn:hover{
+    background-color: rgb(223, 236, 245);
+}

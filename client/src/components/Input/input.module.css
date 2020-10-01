@@ -1,0 +1,28 @@
+.Main{
+    width:40%;
+    margin: 5px;
+}
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 14px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Count{
+    font-size: 12px;
+    float: right;
+    color: gray;
+}
+.Input:focus{
+    background-color: rgb(243, 236, 236);
+    border: 2px solid rgb(104, 101, 101)
+}

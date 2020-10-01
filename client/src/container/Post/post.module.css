@@ -1,0 +1,72 @@
+.Post{
+    border:1px solid;
+    width: 80%;
+    overflow: hidden;
+    border-color: lightgray;
+    align-content: flex-start;
+    margin: 9px 90px;
+    padding: 30px;
+}
+.coordinates{
+ background: rgba(0, 0, 0, 0.5);
+color: #fff;
+position: absolute;
+bottom: 40px;
+left: 10px;
+padding: 5px 10px;
+margin: 0;
+font-size: 11px;
+line-height: 18px;
+border-radius: 3px;
+display: none;
+}
+.Imgdiv{
+    width: 120px;
+    max-height: 15%;
+    cursor: move;
+    margin: 2px;
+    display: inline-block;
+    border: 2px solid;
+    border-color: darkgray;
+    opacity: 0.7;
+}
+.Imgdiv:hover{
+  opacity: 1;
+}
+.Imgdiv .Img{
+    width: 100%;
+    height: 100%;
+}
+.Location{
+  font-size: 18px;
+  height: 70px;
+  color: rgb(129, 126, 126);
+}
+.Location b{
+  color: rgb(104, 102, 102);
+  font-weight: 100;
+}
+ .ImageCut {
+    float: right;
+    cursor: pointer;
+    width: 32px;
+    color: rgb(7, 5, 8);
+    height: 25px;
+    opacity: 0.5;
+  }
+  .Img .ImageCut{
+    width: 30%;
+  }
+
+  .ImageCut:before, .ImageCut:after {
+    content: ' ';
+    height: 37px;
+    width: 10%;
+    background-color: rgb(155, 148, 148);
+  }
+  .ImageCut:before {
+    transform: rotate(45deg);
+  }
+  .ImageCut:after {
+    transform: rotate(-45deg);
+  }

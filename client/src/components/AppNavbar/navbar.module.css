@@ -1,0 +1,70 @@
+.Navbar{
+    width: 100px auto;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(228, 222, 222);
+}
+.Img{
+    border-radius: 20px;
+    width: 40px;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+.loginBtn {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(72, 12, 250);
+    background-color: rgb(242, 242, 247);
+    cursor: pointer;
+    height: 40px;
+    margin: 10px;
+    float: right;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.loginBtn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #cfd3d4, #394bb1, #4130dd, #732bb6);
+}
+.loginBtn:focus {
+    outline: none;
+    border-style: solid;
+}
+.sellBtn {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(252, 251, 255);
+    background-color: blue;
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    float: right;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.sellBtn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #cfd3d4, #394bb1, #4130dd, #732bb6);
+}
+.sellBtn:focus {
+    outline: none;
+    border-style: solid;
+}

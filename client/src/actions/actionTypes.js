@@ -1,0 +1,6 @@
+export const GET_USER='GET_USER'
+export const AUTH_SUCCESS='AUTH_SUCCESS'
+export const LOGOUT='LOGOUT'
+export const GET_LOCATION='GET_LOCATION'
+export const GET_ERROR='GET_ERROR'
+export const GET_ADS='GET_ADS'
